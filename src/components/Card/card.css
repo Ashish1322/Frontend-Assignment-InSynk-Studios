@@ -1,0 +1,63 @@
+.movie_card {
+  box-sizing: border-box;
+  position: relative;
+  width: 282px;
+  height: 348px;
+  background: #ffffff;
+  border: 1px solid #e1e3e6;
+  box-shadow: 1px 2px 8px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.movie_name {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20px;
+  top: 300px;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.01em;
+  color: #000000;
+}
+
+.movie_poster {
+  position: absolute;
+  width: 280px;
+  height: 302px;
+  left: 1px;
+  top: 1px;
+  border-radius: 7px 7px 0px 0px;
+}
+
+.rating_circle {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 14px;
+  top: 22px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+
+  z-index: 1;
+  background-color: white;
+  color: #000000;
+  border-radius: 50%;
+  border: 1px solid black;
+}

@@ -1,0 +1,24 @@
+.cards_grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.movies_grid_container {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+}
+
+.movies_grid_container h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 40px;
+}
+
+.horizontal_line {
+  border: 1px solid #c0c4cc;
+}

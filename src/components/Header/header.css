@@ -1,0 +1,17 @@
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_form {
+  background: #ffffff;
+  border: 1px solid #c0c4cc;
+  border-radius: 2px;
+  padding: 8px;
+}
+
+.header_form input {
+  border: 0px none;
+  outline: none;
+}
